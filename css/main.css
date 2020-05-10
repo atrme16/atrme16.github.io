@@ -1,3 +1,10 @@
+/* общие настройка страницы -------------------------------- */
+body,
+* {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+/* первая секция -------------------------------- */
 .logo a {
   font-family: "Verdana";
   font-size: 12px;
@@ -44,14 +51,60 @@
   border-radius: 15px;
   margin-top: 15px;
 }
-
+/* билборд -------------------------------- */
 .bilbord {
-  outline: 1px solid red;
   background-image: url("../img/safe_image_fon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .wraperMilenium {
-  max-width: 55%;
+  max-width: 65%;
+}
+
+.wraperMilenium img {
+  /* padding: 0;
+  width: 50px !important;
+  height: 50px !important; */
+}
+
+.wraperMilenium li {
+  list-style-image: url("../img/girl.png");
+}
+
+.wraperMilenium h1,
+.wraperMilenium h2 {
+  font-weight: bold;
+}
+
+.wraperMilenium h1 {
+  padding-top: 110px;
+}
+
+.wraperMilenium h2 {
+  margin-top: 40px;
+}
+
+.wrapperTab {
+  padding: 80px 0 90px 0;
+}
+
+.wraperMilenium table td {
+  padding: 15px;
+}
+
+.meText {
+  font-family: "Verdana";
+}
+
+/* форма заказа -------------------------------- */
+.zakaz {
+  background-image: url("../img/safe_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.zakaz h2 {
+  margin: 100px auto 30px auto;
 }
